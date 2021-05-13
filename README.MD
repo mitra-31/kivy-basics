@@ -20,7 +20,7 @@
 
 > Step 1: Upgrade the pip
 
-`python -m pip install --upgrade pip `
+```python -m pip install --upgrade pip ```
 
 > Step 2: Install the dependencies
 
@@ -32,4 +32,4 @@ python -m pip install kivy.deps.angle
 
 > Step 3: Install kivy
 
-`python -m pip install kivy`
+```python -m pip install kivy```
