@@ -22,6 +22,9 @@
 
 - Lack of good examples and documentation.
 
+
+
+
 ## Installation in windows
 
 > Step 1: Upgrade the pip
@@ -45,11 +48,11 @@ python -m pip install kivy.deps.angle
 ### Create an application
 There are three steps of creating an application with kivy:
 
-- 1. Inherit Kivy's App class which represents the window for our widgets
+1. Inherit Kivy's App class which represents the window for our widgets
 
-- 2. Create a **build()** methods, which will show the content of the widgets.
+2. Create a **build()** methods, which will show the content of the widgets.
 
-- 3. At last calling of the **run()** method.
+3. At last calling of the **run()** method.
 
 
 ```
