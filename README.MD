@@ -6,14 +6,20 @@
 
 ### Advantages
 > Based on Python, which is the extremely powerful.
+
 > Write code conce and use it across all devices.
+
 > Performs better than HTML% cross-platform.
+
 > Easy to use widgets and built with multi-touch support.
 
 ### Disadvantages
 > Non-native looking User Interface.
+
 > Bigger package size.
+
 > Lack of community support.
+
 > Lack of good examples and documentation.
 
 ## Installation in windows
@@ -33,3 +39,28 @@ python -m pip install kivy.deps.angle
 > Step 3: Install kivy
 
 ```python -m pip install kivy```
+
+** For other Operating Systems [Here](https://kivy.org/doc/stable/gettingstarted/installation.html#installation-canonical)**
+
+### Create an application
+There are three steps of creating an application with kivy:
+
+> 1. Inherit Kivy's App class which represents the window for our widgets
+
+> 2. Create a **build()** methods, which will show the content of the widgets.
+
+> 3. At last calling of the **run()** method.
+
+
+```
+#Example
+
+from kivy.app import App
+from kivy.uix.button import Label
+
+class HelloKivy(App):
+    def build(self):
+        return Label(text = 'Hello Geeks')
+
+HelloKivy().run()
+```
