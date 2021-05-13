@@ -5,22 +5,22 @@
 > Kivy is an opensource multi-platform GUI development library for Python and can run on iOS, Android, Windows, OS X, and Linux. It helps develop applications that make use of innovative, multi-touch UI. The fundamental idea behind Kivy is to enable the developer to build an app once and use it across all devices, making the code reusable and deployable, allowing for quick and easy interaction design and rapid prototyping.
 
 ### Advantages
-> Based on Python, which is the extremely powerful.
+- Based on Python, which is the extremely powerful.
 
-> Write code conce and use it across all devices.
+- Write code conce and use it across all devices.
 
-> Performs better than HTML% cross-platform.
+- Performs better than HTML% cross-platform.
 
-> Easy to use widgets and built with multi-touch support.
+- Easy to use widgets and built with multi-touch support.
 
 ### Disadvantages
-> Non-native looking User Interface.
+- Non-native looking User Interface.
 
-> Bigger package size.
+- Bigger package size.
 
-> Lack of community support.
+- Lack of community support.
 
-> Lack of good examples and documentation.
+- Lack of good examples and documentation.
 
 ## Installation in windows
 
@@ -45,11 +45,11 @@ python -m pip install kivy.deps.angle
 ### Create an application
 There are three steps of creating an application with kivy:
 
-> 1. Inherit Kivy's App class which represents the window for our widgets
+- 1. Inherit Kivy's App class which represents the window for our widgets
 
-> 2. Create a **build()** methods, which will show the content of the widgets.
+- 2. Create a **build()** methods, which will show the content of the widgets.
 
-> 3. At last calling of the **run()** method.
+- 3. At last calling of the **run()** method.
 
 
 ```
