@@ -67,5 +67,5 @@ HelloKivy().run()
 
 **Output**
 
-![alt first program](ScreenShots/KivyRun1.png)
+![alt first program](ScreenShots/KivyRun1.PNG)
 ![alt first program](ScreenShots/KivyOut1.png)
